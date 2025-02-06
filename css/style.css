@@ -1,0 +1,46 @@
+/* All Global Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Global Css End */
+
+.btn{
+    padding: 18px 40px;
+    border-radius: 18px;
+    background: #8454F5;
+    color: #fff;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.nav-link{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    color: #29313D;
+    font-weight: 600;
+}
