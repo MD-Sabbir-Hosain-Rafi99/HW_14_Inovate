@@ -21,34 +21,41 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
 }
 /* All Global Css End */
 /* Navbar Section Start */
-.btn{
-    padding: 18px 40px;
-    border-radius: 18px;
-    background: #8454F5;
-    color: #fff;
-    font-family: "Nunito", serif;
-    font-size: 18px;
-    font-weight: 600;
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff !important;
 }
-.btn:hover{
-    background-color: inherit !important;
+.btn {
+  padding: 18px 40px;
+  border-radius: 18px;
+  background: #8454f5;
+  color: #fff;
+  font-family: "Nunito", serif;
+  font-size: 18px;
+  font-weight: 600;
 }
-.nav-link{
-    font-family: "Open Sans", serif;
-    font-size: 18px;
-    color: #29313D;
-    font-weight: 600;
+.btn:hover {
+  background-color: inherit !important;
+}
+.nav-link {
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  color: #29313d;
+  font-weight: 600;
 }
 /* Navbar Section End */
 
 /* Bannner Part Section Start */
-#bannerPart{
+#bannerPart {
   background: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -56,21 +63,56 @@ p {
   padding-top: 270px;
   padding-bottom: 250px;
 }
-.bannerContent h1{
+.bannerContent h1 {
   font-size: 60px;
   font-family: "Open Sans", serif;
   font-weight: 800;
-  color: #1D354F;
+  color: #1d354f;
   line-height: 100%;
 }
-.bannerContent p{
+.bannerContent p {
   font-size: 18px;
   font-family: "Nunito", serif;
   font-weight: normal;
-  color: #29313D;
+  color: #29313d;
   line-height: 150%;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-
 /* Bannner Part Section End */
+/* Services Part Section Start */
+#servicePart{
+  padding-bottom: 200px;
+}
+.seviceText h3 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #29313d;
+  padding-bottom: 110px;
+}
+.seviceCard {
+  padding: 20px;
+}
+.seviceCard:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+}
+.seviceCard h4 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #29313d;
+  padding-top: 36px;
+}
+.seviceCard p {
+  font-size: 16px;
+  font-family: "Nunito", serif;
+  font-weight: normal;
+  color: #29313d;
+  line-height: 150%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* Services Part Section End */
