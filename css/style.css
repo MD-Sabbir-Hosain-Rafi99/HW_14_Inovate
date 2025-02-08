@@ -26,7 +26,7 @@ p {
     line-height: 0.8;
 }
 /* All Global Css End */
-
+/* Navbar Section Start */
 .btn{
     padding: 18px 40px;
     border-radius: 18px;
@@ -36,11 +36,41 @@ p {
     font-size: 18px;
     font-weight: 600;
 }
-
-
+.btn:hover{
+    background-color: inherit !important;
+}
 .nav-link{
     font-family: "Open Sans", serif;
     font-size: 18px;
     color: #29313D;
     font-weight: 600;
 }
+/* Navbar Section End */
+
+/* Bannner Part Section Start */
+#bannerPart{
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 270px;
+  padding-bottom: 250px;
+}
+.bannerContent h1{
+  font-size: 60px;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  color: #1D354F;
+  line-height: 100%;
+}
+.bannerContent p{
+  font-size: 18px;
+  font-family: "Nunito", serif;
+  font-weight: normal;
+  color: #29313D;
+  line-height: 150%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Bannner Part Section End */
