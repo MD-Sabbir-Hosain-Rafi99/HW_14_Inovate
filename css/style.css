@@ -122,3 +122,137 @@ p {
   color: #29313d;
 }
 /* Services Part Section End */
+/* App Launch Part Start */
+#appPart{
+  padding-top: 65px;
+  padding-bottom: 110px;
+}
+.mainImg{
+  position: relative;
+}
+.imgFrontChild img{
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+  height: 100%;
+}
+.mainRightPart{
+  padding-left: 25px;
+}
+.mainRightPart h3{
+  font-size: 48px;
+  font-weight: 600;
+  padding-right: 260px;
+  line-height: 100%;
+  font-family: "Open Sans", serif;
+}
+.mainRightPart p{
+  font-family: "Nunito", serif;
+  font-size: 18px;
+  color: #29313D;
+  font-weight: normal;
+  padding-right: 382px;
+  padding-top: 25px;
+  line-height: 150%;
+}
+
+.mainRightCartOne{
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.mainRightCartOne img{
+  padding-bottom: 20px;
+}
+.mainRightCartOne h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #29313D;
+}
+.mainRightCartOne p{
+  font-size: 18px;
+  font-weight: normal;
+  color: #29313D;
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Nunito", serif;
+  line-height: 100%;
+}
+.mainRightCartOne a{
+  font-size: 16px;
+  font-weight: 800;
+  color: #29313D;
+  font-family: "Nunito", serif;
+}
+
+.mainRightPart2 h3{
+  font-size: 48px;
+  font-weight: 600;
+  padding-right: 160px;
+  line-height: 100%;
+  font-family: "Open Sans", serif;
+}
+.mainRightPart2 p{
+  font-family: "Nunito", serif;
+  font-size: 18px;
+  color: #29313D;
+  font-weight: normal;
+  padding-right: 382px;
+  padding-top: 25px;
+  line-height: 150%;
+}
+.mainRightCartOne2{
+  padding-top: 30px;
+}
+.mainRightCartOne2 img{
+  padding-bottom: 20px;
+}
+.mainRightCartOne2 h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #29313D;
+}
+.mainRightCartOne2 p{
+  font-size: 18px;
+  font-weight: normal;
+  color: #29313D;
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Nunito", serif;
+  line-height: 100%;
+}
+.mainRightCartOne2 a{
+  font-size: 16px;
+  font-weight: 800;
+  color: #29313D;
+  font-family: "Nunito", serif;
+}
+/* App Launch Part End */
+/* App Showcase Part Start */
+#appShowCase{
+  background: #edfcfff3;
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+.headerPartText h3{
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  padding-bottom: 30px;
+  color: #29313D;
+}
+.headerPartText p{
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 30px;
+  font-family: "Nunito", serif;
+  color: #29313D;
+}
+/* App Showcase Part End */
+
+.creativeImgCart img{
+  width: 100%;
+  height: 100%;
+}
